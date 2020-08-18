@@ -38,6 +38,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 ![Interactive Map](/images/NYC_Parks_image.png)
-
-[Interactive Map](https://raw.githack.com/juliantsang1/juliantsang1.github.io/master/NYC-Income-Playgrounds/NYC_Choropleth_Map-2.html)
+[NYC Playground-Income Interactive Map](https://juliantsang1.github.io/NYC-Income-Playgrounds/NYC_Choropleth_Map-2.html)
 
