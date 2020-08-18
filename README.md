@@ -16,4 +16,4 @@ Using datasets provided by the IRS and NYC Open Data, I attempt to investigate w
 ### [San Francisco Bike Sharing Analysis](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/SF%20Bikeshare/Project_1.ipynb)
 Using Google BigQuery public datasets, I perform some exploratoy analysis into Lyft's BayWheels Bikesharing Program. Afterwards, I describe some business recommendations that could be used to improve the service.
 
-[SF Bikeshare Bar Chart](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/images/sf_bikeshare_chart_image.png)
+![SF Bikeshare Bar Chart](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/images/sf_bikeshare_chart_image.png)
