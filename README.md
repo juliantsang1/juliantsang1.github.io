@@ -36,6 +36,8 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
+## [Case Study: Is there a relationship between playground availability and household income in New York City?](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/NYC-Income-Playgrounds/IncomeVsPlayground%20-%20Final-revised.ipynb)
+Using datasets provided by the IRS and NYC Open Data, I attempt to investigate whether household income has any relationship with playground and park availability in New York City. Using the folium library, I create an interactive map with multiple overlays illustrating the distribution of income, playgrounds, and park density according to zip codes.
 
 ![Interactive Map](/images/NYC_Parks_image.png)
 [NYC Playground-Income Interactive Map](https://juliantsang1.github.io/NYC-Income-Playgrounds/NYC_Choropleth_Map-2.html)
