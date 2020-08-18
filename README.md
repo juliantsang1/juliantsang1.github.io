@@ -36,5 +36,5 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
-!(https://raw.githack.com/juliantsang1/juliantsang1.github.io/master/NYC-Income-Playgrounds/NYC_Choropleth_Map-2.html)
+[Interactive Map](https://raw.githack.com/juliantsang1/juliantsang1.github.io/master/NYC-Income-Playgrounds/NYC_Choropleth_Map-2.html)
 
