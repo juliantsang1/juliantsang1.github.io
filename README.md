@@ -12,3 +12,5 @@ Using datasets provided by the IRS and NYC Open Data, I attempt to investigate w
 ![Interactive Map](/images/NYC_Parks_image.png)
 [NYC Playground-Income Interactive Map](https://juliantsang1.github.io/NYC-Income-Playgrounds/NYC_Choropleth_Map-2.html)
 
+### [San Francisco Bike Sharing Analysis](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/SF%20Bikeshare/Project_1.ipynb)
+Using Google BigQuery public datasets, I perform some exploratoy analysis into Lyft's BayWheels Bikesharing Program. Afterwards, I develop some business recommendations that could be used to improve the service.
