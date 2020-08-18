@@ -1,40 +1,10 @@
 ## Hello, I'm Julian.
 
-You can use the [editor on GitHub](https://github.com/juliantsang1/juliantsang1.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+I work as an Operations Analyst at a healthcare advertising agency, communicating insights through data visualizations regarding resourcing and project management.
+At night, I'm a Master's student enrolled in UC Berkeley's Data Science program, continually developing new skills in machine learning and statistics and applying them to interesting problems.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/juliantsang1/juliantsang1.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Data Projects
 
 ## [Case Study: Is there a relationship between playground availability and household income in New York City?](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/NYC-Income-Playgrounds/IncomeVsPlayground%20-%20Final-revised.ipynb)
 Using datasets provided by the IRS and NYC Open Data, I attempt to investigate whether household income has any relationship with playground and park availability in New York City. Using the folium library, I create an interactive map with multiple overlays illustrating the distribution of income, playgrounds, and park density according to zip codes.
