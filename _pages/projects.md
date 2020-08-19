@@ -2,7 +2,6 @@
 title: "Data Science Projects"
 permalink: /projects/
 header:
-  image: ""
 ---
 
 
