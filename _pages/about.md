@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: ""
+  image: "images/aboutpic.jpeg"
 ---
 
 I work as an Operations Analyst at a healthcare advertising agency, communicating insights through data visualizations regarding resourcing and project management.
