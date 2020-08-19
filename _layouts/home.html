@@ -4,8 +4,8 @@ layout: archive
 
 {{ content }}
 
-<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Hi! I'm Julian." }}</h3>
-<h4 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Correlation doesn't imply causation, but it does waggle its eyebrows suggestively and gesture furtively while mouthing 'look over there'." }}</h4>
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent post" }}</h3>
+
 
 {% if paginator %}
   {% assign posts = paginator.posts %}
