@@ -8,7 +8,7 @@ permalink: /projects/
 Using datasets provided by the IRS and NYC Open Data, I attempt to investigate whether household income has any relationship with playground and park availability in New York City. Using the folium library, I create an interactive map with multiple overlays illustrating the distribution of income, playgrounds, and park density according to zip codes.
 
 ![Interactive Map](/images/NYC_Parks_image.png)
-[NYC Playground-Income Interactive Map](https://juliantsang1.github.io/NYCIncomePlaygrounds/NYC_Choropleth_Map.html)
+[NYC Playground-Income Interactive Map](https://juliantsang1.github.io/NYC-Income-Playgrounds/NYC_Choropleth_Map.html)
 
 
 
