@@ -4,8 +4,8 @@ permalink: /projects/
 ---
 
 
-### [Diagnosing Pneumonia from Chest X-Rays](https://github.com/juliantsang1/Pneumonia_XRays/blob/master/W207_Final_Project_Kaggle_compatability_v2_Apples_to_Apples.ipynb)
-Using convolutional neural networks, we attempt to create a multi-class classifier that would be able to identify whether a given image of a chest x-ray is normal or has bacterial or viral pneumonia.
+### [Diagnosing Pneumonia from Chest X-Rays](https://github.com/juliantsang1/Pneumonia-Xrays/blob/main/W207_Final_Project_Kaggle_compatability_v2_Apples_to_Apples.ipynb)
+Using convolutional neural networks, we attempt to create a multi-class classifier that would be able to identify whether a given image of a chest x-ray is normal or has bacterial or viral pneumonia. Based on a [Kaggle dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) provided by Paul Mooney, we utilize preprocessing techniques to remove the diaphragm from the original x-ray images. This is because the diaphragm region in x-ray images are usually regions with the brightest pixels. Removing these high-intensity white areas may have a positive effect in distinguishing potential patterns of pneumonia in the lung areas. We've uploaded the preprocessed images into a new Kaggle dataset [here](https://www.kaggle.com/juliantsang1/xray-pneumonia-preprocessing). Using ensemble techniques with pre-trained architectures, we were able to achieve approximately 89% test accuracy.
 
 ![X-Ray Preprocessing Demo](/images/pneumonia_chest_xray_preprocessing.png)
 
