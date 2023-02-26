@@ -3,6 +3,12 @@ title: "Data Science Projects"
 permalink: /projects/
 ---
 
+### [Computer Vision for Camera Traps](https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation)
+We developed Caminos, our deep learning system that predicts both the animal species and the count of animals caught on trail camera images. Our methodology uses an ensemble approach that consists of both object detection and classification algorithms: YOLOv5, EfficientNet, and MegaDetector. These predictions are then supplied as recommendations to users as they label images in our custom-built annotation tool. Caminos streamlines the annotation process for users, resulting in much faster annotation times and providing a valuable resource and blueprint to accelerate conservation decision-making.
+
+Our system was able to correctly identify the animal species with 83% accuracy, and was able to achieve 94% accuracy when the model predicts the species within its top three most likely classifications. The model was also able to correctly predict the number of animals in the image with 78% accuracy.
+
+![Caminos Chart](/images/animals_caminos.png)
 
 ### [Multi-Document Summarization - NLP](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/Multi-document%20Summarization%20with%202-Stage%20Transformers.pdf)
 We experiment with multi-document summarization using a two-stage transformer pipeline consisting of both extractive and abstractive steps on the Multi-News dataset. We found that an ensemble approach of abstractive-abstractive models yielded the best results of any of our full self-attention implementations. However, we still observed issues concerning the quality of generated summaries, namely that our summaries inferred new vocabulary that was not present in the training data.
