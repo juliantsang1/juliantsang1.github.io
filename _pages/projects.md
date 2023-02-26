@@ -4,6 +4,14 @@ permalink: /projects/
 ---
 
 
+### [Effect of Learning Feedback Styles on Learning Outcomes](https://github.com/juliantsang1/W241_Final_Report_Battle_Khoury_Hung_Tsang.pdf)
+Feedback interventions are pervasive to professional environments. The aim of this study is to assess the effectiveness of different types of feedback. We use a controlled experiment and ask subjects to classify X-Ray images for healthy or penumonia-sick lungs. 333 participants recruited on Amazon’s Mechanical Turk analyzed three sets of X-Ray lung images on an online survey. After a pre-treatment test, participants are randomly assigned to five different feedback groups (one control and four types of feedback) and received feedback in between each set of X-Ray images (twice in total).
+
+We found that expert-driven feedback was statistically significant and led to some of the highest improvements in X-Ray analysis. Furthermore, self-reflective feedback techniques were shown to be just as significant and effective. In quick, recognition-based tasks, focusing on negative feedback (i.e. what is wrong) may not be an effective strategy to improve performance. We also found that the marginal improvements in scores from a second feedback session are not significant and may not be worthwhile for shorter duration jobs. Lastly, feedback was found to be more impactful for low achieving performers. High performers do not exhibit any increased boost from feedback and may have been just as successful regardless of feedback sessions.
+
+![Experiment Result Chart](/images/task_experiment_result_chart.png)
+
+
 ### [Diagnosing Pneumonia from Chest X-Rays](https://github.com/juliantsang1/Pneumonia-Xrays/blob/main/W207_Final_Project_Kaggle_compatability_v2_Apples_to_Apples.ipynb)
 Using convolutional neural networks, we attempt to create a multi-class classifier that would be able to identify whether a given image of a chest x-ray is normal or has bacterial or viral pneumonia. Based on a [Kaggle dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) provided by Paul Mooney, we utilize preprocessing techniques to remove the diaphragm from the original x-ray images. This is because the diaphragm region in x-ray images are usually regions with the brightest pixels. Removing these high-intensity white areas may have a positive effect in distinguishing potential patterns of pneumonia in the lung areas. We've uploaded the preprocessed images into a new Kaggle dataset [here](https://www.kaggle.com/juliantsang1/xray-pneumonia-preprocessing). Using ensemble techniques with pre-trained architectures, we were able to achieve approximately 89% test accuracy.
 
