@@ -20,12 +20,10 @@
 
 .archive__item {
   position: relative;
-  max-height: 150px;
 
   a {
     position: relative;
     z-index: 10;
-    max-height: 150px;
   }
 
   a[rel="permalink"] {
