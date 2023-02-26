@@ -3,8 +3,11 @@ title: "Data Science Projects"
 permalink: /projects/
 ---
 
+
 ### [Multi-Document Summarization - NLP](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/Multi-document%20Summarization%20with%202-Stage%20Transformers.pdf)
 We experiment with multi-document summarization using a two-stage transformer pipeline consisting of both extractive and abstractive steps on the Multi-News dataset. We found that an ensemble approach of abstractive-abstractive models yielded the best results of any of our full self-attention implementations. However, we still observed issues concerning the quality of generated summaries, namely that our summaries inferred new vocabulary that was not present in the training data.
+
+![MultiDoc Chart](/images/multidoc_model_picture.png)
 
 
 ### [Air Traffic Departure Delay Prediction](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/W261_airport_delays.ipynb)
