@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Julian Tsang"
   avatar           : "images/profilepic.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Aspriring Data Scientist"
+  bio              : "Data Scientist"
   location         : "New York, NY"
   email            :
   links:

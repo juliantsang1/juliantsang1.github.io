@@ -3,12 +3,16 @@ title: "Data Science Projects"
 permalink: /projects/
 ---
 
-### [Air Traffic Departure Delay Prediction](https://github.com/juliantsang1/W261_airport_delays.ipynb)
+### [Multi-Document Summarization - NLP]
+We experiment with multi-document summarization using a two-stage transformer pipeline consisting of both extractive and abstractive steps on the Multi-News dataset. We found that an ensemble approach of abstractive-abstractive models yielded the best results of any of our full self-attention implementations. However, we still observed issues concerning the quality of generated summaries, namely that our summaries inferred new vocabulary that was not present in the training data.
+
+
+### [Air Traffic Departure Delay Prediction](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/W261_airport_delays.ipynb)
 In this exercise of predicting airport departure delays, we explore airline data, engineer features, and perform model selection.
 We found that creating new features that corresponded to airport delay state or tail number delay state led to the greatest performance gains. We found that the following features were most predictive of departure delays:
-  PRIOR_DEL15 (binary variable) - indicates if there was a prior delay of at least 15 minutes during a time window starting eight hours before scheduled departure and ending two hours before scheduled departure time.
-  PRIOR_DEP_DELAY (minutes) - same definition as above the the variable is expressed in minutes
-  AVG_ORIGIN_DELAY (minutes) - indicates the average delay in minutes of the origin airport occurring between three and two hours prior to a flight's scheduled departure time
+  * **PRIOR_DEL15** (binary variable) - indicates if there was a prior delay of at least 15 minutes during a time window starting eight hours before scheduled departure and ending two hours before scheduled departure time.
+  * **PRIOR_DEP_DELAY** (minutes) - same definition as above the the variable is expressed in minutes
+  * **AVG_ORIGIN_DELAY** (minutes) - indicates the average delay in minutes of the origin airport occurring between three and two hours prior to a flight's scheduled departure time
 These flight-related features were considered the most important and predictive of the target label and we were surprised to learn that weather features were generally not considered important by our models. There are some possible reasons for the effectiveness of prior delay state. The air travel system is an interconnected network, with earlier flights affecting later flights. A delay that occurs early in the day at one airport can contribute to later delays at the same or different airports. It’s also possible that an airport’s average delay metric acted as a proxy for weather or other conditions that caused delays.
 
 The final model selected was an XGBoost model trained on a dataset consisting of all flights occurring from 2015-2018 and evaluated on a test set containing 2019 flights. Delay F1 Score was 0.5495 and Non-Delay F1 Score was 0.8659. Since the dataset was heavily imbalanced, with non-delays outnumbering delays by approximately a 5:1 ratio, we also evaluated against Area Under Precision Recall Curve (AUPRC), which takes into account of precision and recall of the positive class. AUPRC was 0.62.
@@ -17,7 +21,7 @@ The final model selected was an XGBoost model trained on a dataset consisting of
 
 
 
-### [Effect of Learning Feedback Styles on Learning Outcomes](https://github.com/juliantsang1/W241_Final_Report_Battle_Khoury_Hung_Tsang.pdf)
+### [Effect of Learning Feedback Styles on Learning Outcomes](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/W241_Final_Report_Battle_Khoury_Hung_Tsang.pdf)
 Feedback interventions are pervasive to professional environments. The aim of this study is to assess the effectiveness of different types of feedback. We use a controlled experiment and ask subjects to classify X-Ray images for healthy or penumonia-sick lungs. 333 participants recruited on Amazon’s Mechanical Turk analyzed three sets of X-Ray lung images on an online survey. After a pre-treatment test, participants are randomly assigned to five different feedback groups (one control and four types of feedback) and received feedback in between each set of X-Ray images (twice in total).
 
 We found that expert-driven feedback was statistically significant and led to some of the highest improvements in X-Ray analysis. Furthermore, self-reflective feedback techniques were shown to be just as significant and effective. In quick, recognition-based tasks, focusing on negative feedback (i.e. what is wrong) may not be an effective strategy to improve performance. We also found that the marginal improvements in scores from a second feedback session are not significant and may not be worthwhile for shorter duration jobs. Lastly, feedback was found to be more impactful for low achieving performers. High performers do not exhibit any increased boost from feedback and may have been just as successful regardless of feedback sessions.
