@@ -10,12 +10,14 @@ Our system was able to correctly identify the animal species with 83% accuracy, 
 
 ![Caminos Chart](/images/animals_caminos.png)
 
+***
 
 ### [Multi-Document Summarization - NLP](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/Multi-document%20Summarization%20with%202-Stage%20Transformers.pdf)
 We experiment with multi-document summarization using a two-stage transformer pipeline consisting of both extractive and abstractive steps on the Multi-News dataset. We found that an ensemble approach of abstractive-abstractive models yielded the best results of any of our full self-attention implementations. However, we still observed issues concerning the quality of generated summaries, namely that our summaries inferred new vocabulary that was not present in the training data.
 
 ![MultiDoc Chart](/images/multidoc_model_picture.png)
 
+***
 
 ### [Air Traffic Departure Delay Prediction](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/W261_airport_delays.ipynb)
 In this exercise of predicting airport departure delays, we explore airline data, engineer features, and perform model selection.
@@ -28,6 +30,7 @@ The final model selected was an XGBoost model trained on a dataset consisting of
 
 ![Model Results Chart](/images/airport_delay_model_results.png)
 
+***
 
 ### [Effect of Learning Feedback Styles on Learning Outcomes](https://github.com/juliantsang1/juliantsang1.github.io/blob/master/W241_Final_Report_Battle_Khoury_Hung_Tsang.pdf)
 Feedback interventions are pervasive to professional environments. The aim of this study is to assess the effectiveness of different types of feedback. We use a controlled experiment and ask subjects to classify X-Ray images for healthy or penumonia-sick lungs. 333 participants recruited on Amazon’s Mechanical Turk analyzed three sets of X-Ray lung images on an online survey. After a pre-treatment test, participants are randomly assigned to five different feedback groups (one control and four types of feedback) and received feedback in between each set of X-Ray images (twice in total).
@@ -36,12 +39,14 @@ We found that expert-driven feedback was statistically significant and led to so
 
 ![Experiment Result Chart](/images/task_experiment_result_chart.png)
 
+***
 
 ### [Diagnosing Pneumonia from Chest X-Rays](https://github.com/juliantsang1/Pneumonia-Xrays/blob/main/W207_Final_Project_Kaggle_compatability_v2_Apples_to_Apples.ipynb)
 Using convolutional neural networks, we attempt to create a multi-class classifier that would be able to identify whether a given image of a chest x-ray is normal or has bacterial or viral pneumonia. Based on a [Kaggle dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) provided by Paul Mooney, we utilize preprocessing techniques to remove the diaphragm from the original x-ray images. This is because the diaphragm region in x-ray images are usually regions with the brightest pixels. Removing these high-intensity white areas may have a positive effect in distinguishing potential patterns of pneumonia in the lung areas. We've uploaded the preprocessed images into a new Kaggle dataset [here](https://www.kaggle.com/juliantsang1/xray-pneumonia-preprocessing). Using ensemble techniques with pre-trained architectures, we were able to achieve approximately 89% test accuracy.
 
 ![X-Ray Preprocessing Demo](/images/pneumonia_chest_xray_preprocessing.png)
 
+***
 
 ### [Case Study: Is there a relationship between playground availability and household income in New York City?](https://github.com/juliantsang1/NYCIncomePlaygrounds/blob/master/IncomeVsPlayground%20-%20Final-revised.ipynb)
 Using datasets provided by the IRS and NYC Open Data, I attempt to investigate whether household income has any relationship with playground and park availability in New York City. Using the folium library, I create an interactive map with multiple overlays illustrating the distribution of income, playgrounds, and park density according to zip codes.
@@ -49,7 +54,7 @@ Using datasets provided by the IRS and NYC Open Data, I attempt to investigate w
 ![Interactive Map](/images/NYC_Parks_image.png)
 [NYC Playground-Income Interactive Map](https://juliantsang1.github.io/NYC-Income-Playgrounds/NYC_Choropleth_Map.html)
 
-
+***
 
 ### [San Francisco Bike Sharing Analysis](https://github.com/juliantsang1/SFBikeshare/blob/master/Project_1.ipynb)
 Using Google BigQuery public datasets, I perform some exploratory analysis into Lyft's BayWheels Bikesharing Program. Afterwards, I describe some business recommendations that could be used to improve the service.
