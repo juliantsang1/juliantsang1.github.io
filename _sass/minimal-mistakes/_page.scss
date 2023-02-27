@@ -217,11 +217,10 @@ body {
 .page__hero-image {
   // width: 100%;
   // height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  max-width: 90%;
-  float: none;
+  max-width: 90% !important;
+  margin: 0 auto !important;
+  display: block !important;
+  float: none !important;
   -ms-interpolation-mode: bicubic;
 }
 
