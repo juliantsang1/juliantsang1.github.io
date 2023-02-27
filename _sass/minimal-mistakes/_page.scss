@@ -219,8 +219,9 @@ body {
   // height: auto;
   margin-left: auto;
   margin-right: auto;
+  display: block;
   max-width: 90%;
-  object-fit: cover;
+  float: none;
   -ms-interpolation-mode: bicubic;
 }
 
