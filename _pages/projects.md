@@ -3,6 +3,7 @@ title: "Data Science Projects"
 permalink: /projects/
 ---
 
+
 ### [Computer Vision for Camera Trap Images](https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation)
 We developed Caminos, our deep learning system that predicts both the animal species and the count of animals caught on trail camera images. Our methodology uses an ensemble approach that consists of both object detection and classification algorithms: YOLOv5, EfficientNet, and MegaDetector. These predictions are then supplied as recommendations to users as they label images in our custom-built annotation tool. Caminos streamlines the annotation process for users, resulting in much faster annotation times and providing a valuable resource and blueprint to accelerate conservation decision-making.
 
